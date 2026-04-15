@@ -1,0 +1,120 @@
+:root {
+    --text: #b4812f;
+    --background: #effcf1;
+    --primary: #fad991;
+    --secondary: #86e7c9;
+    --accent: #33a5ec;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: var(--background);
+    color: #333;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+header h1 {
+    color: var(--text);
+}
+.logo-icon{
+      width: 50px;
+      height: 45px;
+      position: relative;
+      top: -5px;
+    vertical-align: middle;
+    fill: var(--text);  
+    margin: -19px;
+}
+
+#chefs-hat{
+    width: 50px;
+    height: 45px;
+    position: relative;
+    top: 5px;
+    margin: -4px;
+    right: 7px;
+}
+#dinner{
+    width: 50px;
+    height: 45px;
+    position: relative;
+    top: 5px;
+    margin: -4px;
+    right: 7px;
+
+}
+
+/* NAVIGATION */
+nav {
+    text-align: center;
+    padding: 12px;
+    border-bottom: 2px solid #ccc;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    transition: 0.4s ease-in-out;
+    color: var(--accent);
+}
+
+/* MAIN LAYOUT */
+main {
+    width: 90%;
+    margin: 20px auto;
+}
+
+/* FEATURED IMAGE */
+section img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border: 2px solid #ccc;
+}
+
+/* HERO / INTRO */
+.hero {
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid #ccc;
+}
+
+
+/* RECIPES SECTION */
+.recipes {
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid #ccc;
+}
+
+/* CARD STYLE */
+.card {
+    border: 2px solid #ccc;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: white;
+}
+.card h3 {
+    margin-top: 0;
+    color: var(--text);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    border-top: 2px solid #ccc;
+    margin-top: 20px;
+}
